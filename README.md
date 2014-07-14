@@ -10,9 +10,9 @@ Capser includes two admin templates: index and settings. These templates provide
 
 ## Versions
 
-0.2 - Clean up and prep for Craft Plus Launch
-0.1 - Templates, support, readme file and license
-0.0 - Init Commit
++ 0.2 - Clean up and prep for Craft Plus Launch
++ 0.1 - Templates, support, readme file and license
++ 0.0 - Init Commit
 
 ## Support
 
