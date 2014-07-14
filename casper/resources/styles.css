@@ -1,13 +1,27 @@
+/* LESS color Variables */
 h1 small {
   float: right;
   font-size: .5em;
   position: relative;
   top: 10px;
 }
-.settings:before {
-  color: rgba(0, 0, 0, 0.2);
-  margin: 0 5px 0 0;
+/* Craft plus tags - Feel free to remove*/
+.craft_plus_tag {
+  position: relative;
+  padding: 20px;
+  background: #da5a47;
+  display: block;
+  width: auto;
+  color: #fff7ed;
 }
-.settings:hover:before {
-  color: #0d78f2;
+.craft_plus_tag p {
+  font-size: 1.2em;
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  display: inline-block;
 }
+.craft_plus_tag img {
+  max-width: 100px;
+}
+/* End Craft plus tags */

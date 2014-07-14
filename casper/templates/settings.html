@@ -5,15 +5,8 @@
 
 {% endset %}
 
-{% extends "_layouts/cp" %}
+{% extends "casper/_layout" %}
 
-{% set title = "Casper Settings<small>Created by <a href='http://taechogroup.com'>The Taecho Group</a></small>" %}
-{% includeCssResource "casper/styles.css" %}
-{% includeJsResource "casper/script.js" %}
-
-{% set tabs = {
-    dashboard:     { label: "Dashboard"|t, url: url('casper/') },
-    settings:   { label: "Settings"|t, url: url('casper/settings') },
-} %}
+{% set title = "Casper Settings<small>Created by <a href='http://craftpl.us'>Craftpl.us</a></small>" %}
 
 {% set selectedTab = 'settings' %}

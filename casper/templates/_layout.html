@@ -1,0 +1,9 @@
+{% extends '_layouts/cp' %}
+
+{% includeCssResource "casper/styles.css" %}
+{% includeJsResource "casper/script.js" %}
+
+{% set tabs = {
+    dashboard:     { label: "Dashboard"|t, url: url('casper/') },
+    settings:   { label: "Settings"|t, url: url('casper/settings') },
+} %}
