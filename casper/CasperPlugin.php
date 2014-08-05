@@ -28,6 +28,7 @@ class CasperPlugin extends BasePlugin
     {
         return true;
     }
+    
     public function registerCpRoutes()
     {
         return array(
@@ -37,4 +38,11 @@ class CasperPlugin extends BasePlugin
         );
 
 	}	
+
+    // Thanks Page - Feel free to remove.
+    public function onAfterInstall()
+    {
+        craft()->request->redirect(UrlHelper::getCpUrl('/casper/thanks/'));
+    }
+
 }

@@ -5,23 +5,19 @@ h1 small {
   position: relative;
   top: 10px;
 }
+.center {
+  text-align: center;
+}
 /* Craft plus tags - Feel free to remove*/
-.craft_plus_tag {
-  position: relative;
-  padding: 20px;
-  background: #da5a47;
+.thanks {
+  text-align: center;
   display: block;
-  width: auto;
-  color: #fff7ed;
 }
-.craft_plus_tag p {
-  font-size: 1.2em;
-  position: absolute;
-  left: 15px;
-  top: 10px;
-  display: inline-block;
-}
-.craft_plus_tag img {
-  max-width: 100px;
+.thanks p {
+  font-size: .5em;
+  margin: 5px 0 0;
+  display: block;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.8);
 }
 /* End Craft plus tags */

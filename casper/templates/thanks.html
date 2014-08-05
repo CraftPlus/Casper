@@ -1,0 +1,16 @@
+{% extends "_layouts/cp" %}
+{% set title = "<div class='thanks'><span>Welcome to Capser!</span><p>Thanks for purchasing and supporting Craft Plus.</p></div>" %}
+
+{% includeCssResource "casper/styles.css" %}
+{% includeJsResource "casper/script.js" %}
+{% includeJsResource "casper/track-ck.js" %}
+
+{% set content %}
+    <div class="center" style="margin:0 auto;">
+        <p>We appreciate your support and hope you enjoy Casper. If there's anything we can do to help, please don't hesitate to contact us.</p>
+        <a href="{{ url('casper/') }}"><button class="btn submit">Check out Casper</button></a>
+        <p><a href="" class="js-contact">Contact Us</a></p>
+        <a href="http://craftpl.us/"><button class="btn">Sign up for the CraftNav Newsletter</button></a>
+    </div>
+    {% include "casper/snappy.html" %}
+{% endset %}
