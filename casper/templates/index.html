@@ -1,12 +1,16 @@
 {% set content %}
 
-    <h1>Casper Dashboard</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta blandit porta. Aenean faucibus, neque ut accumsan porttitor, augue elit congue risus, nec pretium lorem urna quis turpis. Ut eu tristique mi. Phasellus pharetra ornare semper. Fusce tincidunt felis lectus, in tincidunt tortor lobortis non.</p>
+    <h1>Heading 1</h1>
+    <div class="welcome">
+        <p>Casper is a simple, blank slate plugin created by <a href="https://craftpl.us/" target="_blank">Crafpl.us</a> for Craft CMS that allows you to quickly get started with plugin development.</p>
+        <h2>Checkout out plugins, tutorials and videos at <a href="https://craftpl.us/" target="_blank">Crafpl.us</a></h2>
+    </div>
+    {% include "casper/uservoice.html" %}
 
 {% endset %}
 
 {% extends "casper/_layout" %}
 
-{% set title = "Casper Dashboard<small>Created by <a href='http://craftpl.us'>Craftpl.us</a></small>" %}
+{% set title = "Casper Dashboard" %}
 
 {% set selectedTab = 'dashboard' %}
