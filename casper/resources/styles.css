@@ -9,6 +9,15 @@ h1 small {
   text-align: center;
 }
 /* Craft plus tags - Feel free to remove*/
+.welcome h2 {
+  background: #da5a47;
+  color: #ffffff;
+  padding: 10px;
+}
+.welcome h2 a {
+  color: #ffffff;
+  text-decoration: underline;
+}
 .thanks {
   text-align: center;
   display: block;
@@ -20,4 +29,3 @@ h1 small {
   width: 100%;
   color: rgba(0, 0, 0, 0.8);
 }
-/* End Craft plus tags */
